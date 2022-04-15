@@ -13,7 +13,7 @@ spec:
         run: mynginx
     spec:
       containers:
-        - image: nginx:1.21.6-alpine
+        - image: nginx:1.21-alpine
           name: mynginx
           ports:
             - containerPort: 80
